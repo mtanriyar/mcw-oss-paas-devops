@@ -7,7 +7,7 @@ var Order = require('../models/Order');
 var Plan = require('../models/Plan');
 var User = require('../models/User');
 
-var databaseUrl = 'mongodb://localhost:27017/best-for-you-organics';
+var databaseUrl = 'mongodb://best-for-you-db-mt:fArHLDTobbTx3TJDdZQwh8fFnbNzK1P9154av1S1UTfL5gm8PBu2ZqQTpPk2PaxZ6OfBCj8R6Osmx0LPS1vRng==@best-for-you-db-mt.documents.azure.com:10255/best-for-you-organics?ssl=true&replicaSet=globaldb';
 
 var twoPersonPlanId = new ObjectId();
 var fourPersonPlanId = new ObjectId();
